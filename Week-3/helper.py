@@ -17,3 +17,5 @@ DATA_PATH = "data/ACDC17"
 train_files = get_patient_data(dataset_path=Path(DATA_PATH), first_id=1, last_id=14)
 val_files = get_patient_data(dataset_path=Path(DATA_PATH), first_id=15, last_id=16)
 test_files = get_patient_data(dataset_path=Path(DATA_PATH), first_id=17, last_id=20)
+
+print(train_files)
